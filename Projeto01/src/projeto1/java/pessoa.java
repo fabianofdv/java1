@@ -15,7 +15,17 @@ public class pessoa {
 	private Date dataCadastro;
 	
 	private String cpf;
+	
+	private String cor;
 
+
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
 
 	public String getCpf() {
 		return cpf;
