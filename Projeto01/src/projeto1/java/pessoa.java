@@ -13,7 +13,17 @@ public class pessoa {
 	private Date dataNascimento;
 	
 	private Date dataCadastro;
+	
+	private String cpf;
 
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
 
 	public Date getDataCadastro() {
 		return dataCadastro;
