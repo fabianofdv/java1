@@ -10,8 +10,18 @@ public class pessoa {
 	
 	private int idade;
 	
-	public Date dataNascimento;
+	private Date dataNascimento;
+	
+	private Date dataCadastro;
 
+
+	public Date getDataCadastro() {
+		return dataCadastro;
+	}
+
+	public void setDataCadastro(Date dataCadastro) {
+		this.dataCadastro = dataCadastro;
+	}
 
 	public Date getDataNascimento() {
 		return dataNascimento;
